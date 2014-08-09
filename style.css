@@ -74,3 +74,9 @@ body {
     color: #332A04;
     font-family: Tahoma;
 }
+
+#date{
+    margin-top: 50px;
+    float: right;
+    font-size: 12px;
+}
