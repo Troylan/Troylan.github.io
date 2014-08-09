@@ -1,19 +1,20 @@
 body {
-    background: linear-gradient(#F5EEBF, F5EEBF)
+    background: #F5EEBF;
 }/*#FAC38C*/
 
 #banner{
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    width: 70%;
-    height: 10%;
-    background: white;
+    width: 0;
+    height: 200;
 }
 
 #navbar{
     background: #854A19;
     height: 3.2em;
+    width: 120%;
+    margin-left: -10%;
 }
 
 #menu{
@@ -27,7 +28,6 @@ body {
     display: inline;
     vertical-align: middle;
 }
-
 #menu a{
     display: inline-block;
     vertical-align: middle;
@@ -36,12 +36,21 @@ body {
     text-decoration: none;
     color: #E2E8B0;
 }
-
 #menu li:before{
     content: " | ";
     color: #E2E8B0;
 }
-
 #menu li:first-child:before{
     content: none;
+}
+
+#main {
+    height: auto;
+    width: 80%;
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    font-family: Tahoma;
 }
