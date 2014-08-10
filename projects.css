@@ -1,0 +1,93 @@
+body {
+    background: #F5EEBF;
+}
+
+#back{
+    z-index: -1;
+    background: #F0E1C2;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%;
+    margin-top: -10px;
+}
+
+#banner{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 240px;
+    background: url(http://puu.sh/aJlvO/9872d37fd8.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+#navbar{
+    background: #854A19;
+    height: 3.2em;
+    width: 120%;
+    margin-left: -10%;
+    margin-top: 0px;
+    clear: both;
+    z-index: 99;
+}
+
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#menu li{
+    display: inline;
+    vertical-align: middle;
+}
+#menu a{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 1em;
+    font-family: Trebuchet MS;
+    text-decoration: none;
+    color: #E2E8B0;
+    margin-top: 2px;
+}
+#menu li:before{
+    content: " | ";
+    color: #E2E8B0;
+}
+#menu li:first-child:before{
+    content: none;
+}
+
+#main {
+    height: auto;
+    width: 70%;
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    color: #332A04;
+    font-family: Tahoma;
+}
+
+#date{
+    margin-top: 50px;
+    float: right;
+    font-size: 12px;
+}
+
+dt{
+    font-family: "Arial Black";
+    font-size: 22px;
+    padding-top: 5px;
+}
+
+dd{
+    padding-bottom: 5px;
+}
+
+a{
+    color: #131b52;
+    text-decoration: none;
+}
