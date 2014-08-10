@@ -62,17 +62,46 @@ body {
 
 #main {
     height: auto;
-    width: 85%;
+    width: 70%;
     margin-top: 0;
     padding-top: 0;
     margin-left: auto;
     margin-right: auto;
     color: #332A04;
     font-family: Tahoma;
+    font-size: 16px;
 }
 
 #date{
     margin-top: 50px;
     float: right;
     font-size: 12px;
+    clear: both;
+}
+
+#left{
+   float: left;
+   width: 60%
+}
+
+#right{
+    width:40%;
+    float: right;
+}
+
+h4{
+    padding: 0;
+    font-size: 20px;
+}
+
+ul {
+    padding-top: 0px;
+}
+
+#seeLink {
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
 }
